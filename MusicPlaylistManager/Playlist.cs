@@ -4,7 +4,7 @@ using MusicPlaylistManager;
 public class Playlist
 {
     public string Name { get; set; }
-    private SongNode head; // Head of the linked list
+    private SongNode head; 
 
     public Playlist(string name)
     {
@@ -68,7 +68,7 @@ public class Playlist
 
         Console.WriteLine($"Playlist loaded from {filePath}");
     }
-    // Allow user to enter a song from console
+    
     public void AddSongFromUser()
     {
         Console.Write("Enter Song Title: ");
@@ -99,7 +99,7 @@ public class Playlist
         AddSong(newSong);
     }
 
-    // Add a song to the linked list
+    
     public void AddSong(Song song)
     {
         SongNode newNode = new SongNode(song);
@@ -119,7 +119,7 @@ public class Playlist
         Console.WriteLine($"Added {song.Title} to {Name}.");
     }
 
-    // Search by Title
+    
     public void SearchByTitle(string title)
     {
         SongNode temp = head;
@@ -176,148 +176,65 @@ public class Playlist
             Console.WriteLine("No songs found in this genre.");
     }
 
-    public void SortPlaylist(string sortBy, string sortMethod)
+    public void SortPlaylist(string criteria)               //Merge Sort
     {
-        switch (sortMethod.ToLower())
-        {
-            case "bubble":
-                BubbleSort(sortBy);
-                break;
-            case "merge":
-                head = MergeSort(head, sortBy);
-                break;
-            case "quick":
-                head = QuickSort(head, null, sortBy);
-                break;
-            default:
-                Console.WriteLine("Invalid sorting method.");
-                return;
-        }
-        Console.WriteLine($"Songs sorted by {sortBy} using {sortMethod} sort.");
+        head = MergeSort(head, criteria);
     }
 
-    // Bubble Sort for sorting by Title, Genre, or Decade
-    private void BubbleSort(string sortBy)
+    private SongNode MergeSort(SongNode head, string criteria)
     {
         if (head == null || head.Next == null)
-        {
-            Console.WriteLine("Not enough songs to sort.");
-            return;
-        }
+            return head;
 
-        bool swapped;
-        do
-        {
-            swapped = false;
-            SongNode current = head;
-            while (current.Next != null)
-            {
-                if (CompareSongs(current.Data, current.Next.Data, sortBy) > 0)
-                {
-                    // Swap songs
-                    Song temp = current.Data;
-                    current.Data = current.Next.Data;
-                    current.Next.Data = temp;
-                    swapped = true;
-                }
-                current = current.Next;
-            }
-        } while (swapped);
-
-        Console.WriteLine($"Songs sorted by {sortBy} using Bubble Sort.");
-    }
-
-    // Merge Sort for sorting by Title, Genre, or Decade
-    private SongNode MergeSort(SongNode node, string sortBy)
-    {
-        if (node == null || node.Next == null)
-            return node;
-
-        SongNode middle = GetMiddle(node);
-        SongNode nextOfMiddle = middle.Next;
+        SongNode middle = GetMiddle(head);
+        SongNode nextToMiddle = middle.Next;
         middle.Next = null;
 
-        SongNode left = MergeSort(node, sortBy);
-        SongNode right = MergeSort(nextOfMiddle, sortBy);
+        SongNode left = MergeSort(head, criteria);
+        SongNode right = MergeSort(nextToMiddle, criteria);
 
-        return Merge(left, right, sortBy);
+        return Merge(left, right, criteria);
     }
 
-    private SongNode Merge(SongNode left, SongNode right, string sortBy)
+    private SongNode Merge(SongNode left, SongNode right, string criteria)
     {
         if (left == null) return right;
         if (right == null) return left;
 
-        if (CompareSongs(left.Data, right.Data, sortBy) <= 0)
+        bool shouldSwap;
+        switch (criteria.ToLower())
         {
-            left.Next = Merge(left.Next, right, sortBy);
+            case "1":
+                shouldSwap = string.Compare(left.Data.Artist, right.Data.Artist, StringComparison.OrdinalIgnoreCase) <= 0;
+                break;
+            case "2":
+                shouldSwap = left.Data.Decade <= right.Data.Decade;
+                break;
+            case "3":
+                shouldSwap = string.Compare(left.Data.Genre, right.Data.Genre, StringComparison.OrdinalIgnoreCase) <= 0;
+                break;
+            default:
+                shouldSwap = true;
+                break;
+        }
+
+        if (shouldSwap)
+        {
+            left.Next = Merge(left.Next, right, criteria);
             return left;
         }
         else
         {
-            right.Next = Merge(left, right.Next, sortBy);
+            right.Next = Merge(left, right.Next, criteria);
             return right;
         }
     }
 
-    // Quick Sort for sorting by Title, Genre, or Decade
-    private SongNode QuickSort(SongNode start, SongNode end, string sortBy)
+    private SongNode GetMiddle(SongNode head)
     {
-        if (start == null || start == end)
-            return start;
+        if (head == null) return head;
 
-        SongNode newHead = null, newEnd = null;
-        SongNode pivot = Partition(start, end, ref newHead, ref newEnd, sortBy);
-
-        if (newHead != pivot)
-        {
-            SongNode temp = newHead;
-            while (temp.Next != pivot)
-                temp = temp.Next;
-            temp.Next = null;
-
-            newHead = QuickSort(newHead, temp, sortBy);
-            temp = GetTail(newHead);
-            temp.Next = pivot;
-        }
-
-        pivot.Next = QuickSort(pivot.Next, newEnd, sortBy);
-        return newHead;
-    }
-
-    private SongNode Partition(SongNode start, SongNode end, ref SongNode newHead, ref SongNode newEnd, string sortBy)
-    {
-        SongNode pivot = end, prev = null, curr = start, tail = pivot;
-        while (curr != pivot)
-        {
-            if (CompareSongs(curr.Data, pivot.Data, sortBy) < 0)
-            {
-                if (newHead == null)
-                    newHead = curr;
-                prev = curr;
-                curr = curr.Next;
-            }
-            else
-            {
-                if (prev != null)
-                    prev.Next = curr.Next;
-                SongNode temp = curr.Next;
-                curr.Next = null;
-                tail.Next = curr;
-                tail = curr;
-                curr = temp;
-            }
-        }
-        if (newHead == null)
-            newHead = pivot;
-        newEnd = tail;
-        return pivot;
-    }
-
-    private SongNode GetMiddle(SongNode node)
-    {
-        if (node == null) return node;
-        SongNode slow = node, fast = node;
+        SongNode slow = head, fast = head;
         while (fast.Next != null && fast.Next.Next != null)
         {
             slow = slow.Next;
@@ -326,24 +243,129 @@ public class Playlist
         return slow;
     }
 
-    private SongNode GetTail(SongNode node)
+    /*public void SortPlaylist(string criteria)   //Bubble Sort
     {
-        while (node != null && node.Next != null)
-            node = node.Next;
-        return node;
+        if (head == null || head.Next == null)
+            return;
+
+        bool swapped;
+        do
+        {
+            swapped = false;
+            SongNode current = head;
+            SongNode prev = null;
+
+            while (current.Next != null)
+            {
+                bool shouldSwap = false;
+                switch (criteria.ToLower())
+                {
+                    case "1":
+                        shouldSwap = string.Compare(current.Data.Artist, current.Next.Data.Artist, StringComparison.OrdinalIgnoreCase) > 0;
+                        break;
+                    case "2":
+                        shouldSwap = current.Data.Decade > current.Next.Data.Decade;
+                        break;
+                    case "3":
+                        shouldSwap = string.Compare(current.Data.Genre, current.Next.Data.Genre, StringComparison.OrdinalIgnoreCase) > 0;
+                        break;
+                }
+
+                if (shouldSwap)
+                {
+                    // Swap data
+                    Song temp = current.Data;
+                    current.Data = current.Next.Data;
+                    current.Next.Data = temp;
+                    swapped = true;
+                }
+                prev = current;
+                current = current.Next;
+            }
+        } while (swapped);
+    }*/
+
+    /*public void SortPlaylist(string criteria)           //Quick Sort
+    {
+        head = QuickSort(head, GetTail(head), criteria);
     }
 
-    // Compare two songs based on the selected sort criterion
-    private int CompareSongs(Song song1, Song song2, string sortBy)
+    private SongNode QuickSort(SongNode head, SongNode tail, string criteria)
     {
-        return sortBy.ToLower() switch
+        if (head == null || head == tail)
+            return head;
+
+        SongNode newHead = null, newTail = null;
+        SongNode pivot = Partition(head, tail, ref newHead, ref newTail, criteria);
+
+        if (newHead != pivot)
         {
-            "title" => string.Compare(song1.Title, song2.Title, StringComparison.OrdinalIgnoreCase),
-            "genre" => string.Compare(song1.Genre, song2.Genre, StringComparison.OrdinalIgnoreCase),
-            "decade" => song1.Decade.CompareTo(song2.Decade),
-            _ => 0,
-        };
+            SongNode temp = newHead;
+            while (temp.Next != pivot)
+                temp = temp.Next;
+            temp.Next = null;
+
+            newHead = QuickSort(newHead, temp, criteria);
+
+            temp = GetTail(newHead);
+            temp.Next = pivot;
+        }
+
+        pivot.Next = QuickSort(pivot.Next, newTail, criteria);
+        return newHead;
     }
+
+    private SongNode Partition(SongNode head, SongNode tail, ref SongNode newHead, ref SongNode newTail, string criteria)
+    {
+        SongNode pivot = tail;
+        SongNode prev = null, cur = head, tailPtr = pivot;
+
+        while (cur != pivot)
+        {
+            bool shouldMove = false;
+            switch (criteria.ToLower())
+            {
+                case "1":
+                    shouldMove = string.Compare(cur.Data.Artist, pivot.Data.Artist, StringComparison.OrdinalIgnoreCase) < 0;
+                    break;
+                case "2":
+                    shouldMove = cur.Data.Decade < pivot.Data.Decade;
+                    break;
+                case "3":
+                    shouldMove = string.Compare(cur.Data.Genre, pivot.Data.Genre, StringComparison.OrdinalIgnoreCase) < 0;
+                    break;
+            }
+
+            if (shouldMove)
+            {
+                if (newHead == null) newHead = cur;
+                prev = cur;
+                cur = cur.Next;
+            }
+            else
+            {
+                if (prev != null) prev.Next = cur.Next;
+                SongNode temp = cur.Next;
+                cur.Next = null;
+                tailPtr.Next = cur;
+                tailPtr = cur;
+                cur = temp;
+            }
+        }
+
+        if (newHead == null) newHead = pivot;
+        newTail = tailPtr;
+        return pivot;
+    }
+
+    private SongNode GetTail(SongNode head)
+    {
+        while (head != null && head.Next != null)
+            head = head.Next;
+        return head;
+    }*/
+
+
     public Song GetSongByTitle(string title)
     {
         SongNode temp = head;
@@ -380,7 +402,7 @@ public class Playlist
         string mostSavedArtist = "";
         int maxCount = 0;
 
-        // Loop through each song and count how many times its artist appears
+        
         while (temp != null)
         {
             string currentArtist = temp.Data.Artist;
@@ -472,7 +494,6 @@ public class Playlist
         return favoriteGenre;
     }
 
-    // Display all songs in the playlist
     public void DisplaySongs()
     {
         if (head == null)

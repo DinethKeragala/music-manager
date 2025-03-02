@@ -2,8 +2,8 @@
 
 public class QueueNode
 {
-    public Song Data; // The song stored in this node
-    public QueueNode Next; // Pointer to the next node in the queue
+    public Song Data; 
+    public QueueNode Next; 
 
     public QueueNode(Song song)
     {

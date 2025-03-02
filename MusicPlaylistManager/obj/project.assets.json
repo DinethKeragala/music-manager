@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSA Project\\MusicPlaylistManager\\MusicPlaylistManager\\MusicPlaylistManager.csproj",
+      "projectUniqueName": "D:\\coding\\music-manager\\MusicPlaylistManager\\MusicPlaylistManager.csproj",
       "projectName": "MusicPlaylistManager",
-      "projectPath": "D:\\DSA Project\\MusicPlaylistManager\\MusicPlaylistManager\\MusicPlaylistManager.csproj",
+      "projectPath": "D:\\coding\\music-manager\\MusicPlaylistManager\\MusicPlaylistManager.csproj",
       "packagesPath": "C:\\Users\\Dineth Keragala\\.nuget\\packages\\",
-      "outputPath": "D:\\DSA Project\\MusicPlaylistManager\\MusicPlaylistManager\\obj\\",
+      "outputPath": "D:\\coding\\music-manager\\MusicPlaylistManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dineth Keragala\\AppData\\Roaming\\NuGet\\NuGet.Config",

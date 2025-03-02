@@ -10,7 +10,7 @@ public class PlayQueue
         front = rear = null;
     }
 
-    //  Add a song to the queue (Enqueue)
+    
     public void Enqueue(Song song)
     {
         QueueNode newNode = new QueueNode(song);
@@ -26,7 +26,7 @@ public class PlayQueue
         Console.WriteLine($"{song.Title} added to play queue.");
     }
 
-    // ▶️ Play the next song (Dequeue)
+    
     public void PlayNext()
     {
         if (front == null)
@@ -39,11 +39,11 @@ public class PlayQueue
         front.Data.DisplaySong();
         front = front.Next;
 
-        if (front == null) // If queue is empty after playing
+        if (front == null) 
             rear = null;
     }
 
-    // 📜 Show queue
+    
     public void DisplayQueue()
     {
         if (front == null)
