@@ -1,0 +1,14 @@
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\bin\Debug\net8.0\MusicPlaylistManager.exe
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\bin\Debug\net8.0\MusicPlaylistManager.deps.json
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\bin\Debug\net8.0\MusicPlaylistManager.runtimeconfig.json
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\bin\Debug\net8.0\MusicPlaylistManager.dll
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\bin\Debug\net8.0\MusicPlaylistManager.pdb
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.AssemblyInfoInputs.cache
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.AssemblyInfo.cs
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.csproj.CoreCompileInputs.cache
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.dll
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\refint\MusicPlaylistManager.dll
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.pdb
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\MusicPlaylistManager.genruntimeconfig.cache
+D:\DSA Project\MusicPlaylistManager\MusicPlaylistManager\obj\Debug\net8.0\ref\MusicPlaylistManager.dll
