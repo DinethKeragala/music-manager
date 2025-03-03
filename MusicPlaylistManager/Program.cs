@@ -5,7 +5,8 @@ class Program
     static void Main(string[] args)
     {
         Console.Write("Enter Playlist Name: ");
-        string playlistName = Console.ReadLine();
+        string? playlistName = Console.ReadLine();
+        playlistName = playlistName ?? "Default Playlist";
         Playlist myPlaylist = new Playlist(playlistName);
 
         string filePath = "songs.csv"; // Default CSV file
@@ -21,13 +22,13 @@ class Program
             Console.WriteLine("3 Search Song by Title");
             Console.WriteLine("4 Search Songs by Artist");
             Console.WriteLine("5 Search Songs by Genre");
-            Console.WriteLine("6 Sort Playlist");
+            Console.WriteLine("6 Sort Songs");
             Console.WriteLine("7 Play Songs");
             Console.WriteLine("8 View Playlist Statistics");
             Console.WriteLine("9 Save Playlist & Exit");
             Console.Write("Choose an option: ");
 
-            string choice = Console.ReadLine();
+            string? choice = Console.ReadLine();
 
             switch (choice)
             {
@@ -39,34 +40,36 @@ class Program
                     break;
                 case "3":
                     Console.Write("Enter Song Title: ");
-                    myPlaylist.SearchByTitle(Console.ReadLine());
+                    string title = Console.ReadLine() ?? "";
+                    myPlaylist.SearchByTitle(title);
                     break;
                 case "4":
                     Console.Write("Enter Artist Name: ");
-                    myPlaylist.SearchByArtist(Console.ReadLine());
+                    string artist = Console.ReadLine() ?? "";
+                    myPlaylist.SearchByArtist(artist);
                     break;
                 case "5":
                     Console.Write("Enter Genre: ");
-                    myPlaylist.SearchByGenre(Console.ReadLine());
+                    string genre = Console.ReadLine() ?? "";
+                    myPlaylist.SearchByGenre(genre);
                     break;
                 case "6":
-                    Console.WriteLine("\nSort Playlist by:");
-                    Console.WriteLine("1 Artist");
-                    Console.WriteLine("2 Decade");
-                    Console.WriteLine("3 Genre");
-                    Console.Write("Enter choice: ");
-                    string sortChoice = Console.ReadLine();
-                    string criteria = sortChoice;
-                    
-                    if (criteria != "")
-                    {
-                        myPlaylist.SortPlaylist(criteria);
-                        Console.WriteLine($"Playlist sorted by {criteria}.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Invalid choice.");
-                    }
+                    Console.WriteLine("\nChoose Sorting Option:");
+                    Console.WriteLine("1 Sort by Title");
+                    Console.WriteLine("2 Sort by Genre");
+                    Console.WriteLine("3 Sort by Decade");
+                    Console.Write("Enter sorting criterion: ");
+                    string sortBy = Console.ReadLine() ?? "1";
+
+                    Console.WriteLine("\nChoose Sorting Method:");
+                    Console.WriteLine("1 Bubble Sort");
+                    Console.WriteLine("2 Merge Sort");
+                    Console.WriteLine("3 Quick Sort");
+                    Console.Write("Enter sorting method: ");
+                    string sortMethod = Console.ReadLine() ?? "1";
+
+                    // Call the new method to handle the sorting logic
+                    myPlaylist.SortPlaylist(sortBy, sortMethod);
                     break;
                 case "7":
                     Console.WriteLine("\nPlay Songs Menu:");
@@ -74,13 +77,13 @@ class Program
                     Console.WriteLine("2 Play Next Song");
                     Console.WriteLine("3 View Play Queue");
                     Console.Write("Enter choice: ");
-                    string playChoice = Console.ReadLine();
+                    string playChoice = Console.ReadLine() ?? "3";
 
                     switch (playChoice)
                     {
                         case "1":
                             Console.Write("Enter Song Title to Add to Queue: ");
-                            string songTitle = Console.ReadLine();
+                            string? songTitle = Console.ReadLine() ?? "";
                             Song foundSong = myPlaylist.GetSongByTitle(songTitle);
                             if (foundSong != null)
                             {
@@ -106,7 +109,7 @@ class Program
                     myPlaylist.DisplayPlaylistStats();
                     break;
                 case "9":
-                    myPlaylist.ExportToCSV(filePath);
+                    myPlaylist.ExportToCSV(filePath); // Save playlist before exiting
                     Console.WriteLine("Exiting...");
                     return;
                 default:

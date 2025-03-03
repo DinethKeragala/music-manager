@@ -2,15 +2,15 @@
 
 public class PlayQueue
 {
-    private QueueNode front; // First song in queue
-    private QueueNode rear;  // Last song in queue
+    private QueueNode? front; // First song in queue
+    private QueueNode? rear;  // Last song in queue
 
     public PlayQueue()
     {
         front = rear = null;
     }
 
-    
+    //  Add a song to the queue (Enqueue)
     public void Enqueue(Song song)
     {
         QueueNode newNode = new QueueNode(song);
@@ -26,7 +26,7 @@ public class PlayQueue
         Console.WriteLine($"{song.Title} added to play queue.");
     }
 
-    
+    // Play the next song (Dequeue)
     public void PlayNext()
     {
         if (front == null)
@@ -39,11 +39,11 @@ public class PlayQueue
         front.Data.DisplaySong();
         front = front.Next;
 
-        if (front == null) 
+        if (front == null) // If queue is empty after playing
             rear = null;
     }
 
-    
+    //  Show queue
     public void DisplayQueue()
     {
         if (front == null)
@@ -57,6 +57,8 @@ public class PlayQueue
         while (temp != null)
         {
             temp.Data.DisplaySong();
+            if(temp.Next == null) 
+                break;
             temp = temp.Next;
         }
     }
