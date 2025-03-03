@@ -2,8 +2,23 @@
 
 public class PlayQueue
 {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     private QueueNode? front; // First song in queue
     private QueueNode? rear;  // Last song in queue
+=======
+    private QueueNode? front; // First song 
+    private QueueNode? rear;  // Last song 
+>>>>>>> Stashed changes
+=======
+    private QueueNode? front; // First song 
+    private QueueNode? rear;  // Last song 
+>>>>>>> Stashed changes
+=======
+    private QueueNode? front; // First song 
+    private QueueNode? rear;  // Last song 
+>>>>>>> Stashed changes
 
     public PlayQueue()
     {
@@ -53,7 +68,7 @@ public class PlayQueue
         }
 
         Console.WriteLine("\nPlay Queue:");
-        QueueNode temp = front;
+        QueueNode? temp = front;
         while (temp != null)
         {
             temp.Data.DisplaySong();

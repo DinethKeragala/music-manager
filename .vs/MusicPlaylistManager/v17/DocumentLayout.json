@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\playqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\playqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\queuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\queuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\queuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\queuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\songnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|d:\\coding\\music-manager\\musicplaylistmanager\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACA9FFFF-F826-406A-A4DF-FD81845D9AF6}|MusicPlaylistManager\\MusicPlaylistManager.csproj|solutionrelative:musicplaylistmanager\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,68 +38,63 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Song.cs",
               "DocumentMoniker": "D:\\coding\\music-manager\\MusicPlaylistManager\\Song.cs",
               "RelativeDocumentMoniker": "MusicPlaylistManager\\Song.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\Song.cs",
               "RelativeToolTip": "MusicPlaylistManager\\Song.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA5wAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:25:26.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:25:26.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "SongNode.cs",
               "DocumentMoniker": "D:\\coding\\music-manager\\MusicPlaylistManager\\SongNode.cs",
               "RelativeDocumentMoniker": "MusicPlaylistManager\\SongNode.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\SongNode.cs",
               "RelativeToolTip": "MusicPlaylistManager\\SongNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:25:22.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:25:22.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "QueueNode.cs",
               "DocumentMoniker": "D:\\coding\\music-manager\\MusicPlaylistManager\\QueueNode.cs",
               "RelativeDocumentMoniker": "MusicPlaylistManager\\QueueNode.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\QueueNode.cs",
               "RelativeToolTip": "MusicPlaylistManager\\QueueNode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:25:17.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:25:17.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Playlist.cs",
               "DocumentMoniker": "D:\\coding\\music-manager\\MusicPlaylistManager\\Playlist.cs",
               "RelativeDocumentMoniker": "MusicPlaylistManager\\Playlist.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\Playlist.cs",
               "RelativeToolTip": "MusicPlaylistManager\\Playlist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAowBYCAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:25:15.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:25:15.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayQueue.cs",
               "DocumentMoniker": "D:\\coding\\music-manager\\MusicPlaylistManager\\PlayQueue.cs",
               "RelativeDocumentMoniker": "MusicPlaylistManager\\PlayQueue.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\PlayQueue.cs",
               "RelativeToolTip": "MusicPlaylistManager\\PlayQueue.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T18:25:14.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T18:25:14.201Z"
             },
             {
               "$type": "Document",
@@ -109,7 +104,7 @@
               "RelativeDocumentMoniker": "MusicPlaylistManager\\Program.cs",
               "ToolTip": "D:\\coding\\music-manager\\MusicPlaylistManager\\Program.cs",
               "RelativeToolTip": "MusicPlaylistManager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T18:25:10.866Z",
               "EditorCaption": ""

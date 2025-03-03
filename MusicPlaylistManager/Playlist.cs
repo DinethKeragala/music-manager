@@ -1,10 +1,11 @@
-﻿using System.Text;
+﻿using System.Diagnostics;
+using System.Text;
 using MusicPlaylistManager;
 
 public class Playlist
 {
     public string Name { get; set; }
-    private SongNode head; 
+    private SongNode? head; 
 
     public Playlist(string name)
     {
@@ -23,7 +24,7 @@ public class Playlist
         StringBuilder csvContent = new StringBuilder();
         csvContent.AppendLine("Title,Artist,Genre,Decade,Duration"); // CSV Header
 
-        SongNode temp = head;
+        SongNode? temp = head;
         while (temp != null)
         {
             csvContent.AppendLine($"{temp.Data.Title},{temp.Data.Artist},{temp.Data.Genre},{temp.Data.Decade},{temp.Data.Duration}");
@@ -34,20 +35,24 @@ public class Playlist
         Console.WriteLine($"Playlist exported to {filePath}");
     }
 
-    public void LoadFromCSV(string filePath)
+
+    public static Playlist? LoadFromCSV(string filePath)
     {
         if (!File.Exists(filePath))
         {
             Console.WriteLine("No previous playlist found.");
-            return;
+            return null;
         }
 
         string[] lines = File.ReadAllLines(filePath);
-        if (lines.Length <= 1) // No song data
+        if (lines.Length < 2) // No song data
         {
             Console.WriteLine("Playlist file is empty.");
-            return;
+            return null;
         }
+
+        string playlistName = Path.GetFileNameWithoutExtension(filePath); // Extract playlist name from filename
+        Playlist loadedPlaylist = new Playlist(playlistName);
 
         for (int i = 1; i < lines.Length; i++) // Skip header
         {
@@ -62,23 +67,26 @@ public class Playlist
                 double duration = double.Parse(data[4]);
 
                 Song newSong = new Song(title, artist, genre, decade, duration);
-                AddSong(newSong);
+                loadedPlaylist.AddSong(newSong);
             }
         }
 
-        Console.WriteLine($"Playlist loaded from {filePath}");
+        Console.WriteLine($"Playlist '{playlistName}' loaded from {filePath}");
+        return loadedPlaylist;
     }
-    
+
+
+
     public void AddSongFromUser()
     {
         Console.Write("Enter Song Title: ");
-        string title = Console.ReadLine();
+        string title = Console.ReadLine() ??""; 
 
         Console.Write("Enter Artist: ");
-        string artist = Console.ReadLine();
+        string artist = Console.ReadLine() ?? "";
 
         Console.Write("Enter Genre: ");
-        string genre = Console.ReadLine();
+        string genre = Console.ReadLine() ?? "";
 
         Console.Write("Enter Decade (e.g., 1980, 1990, 2000): ");
         int decade;
@@ -94,7 +102,6 @@ public class Playlist
             Console.Write("Invalid input. Enter a valid duration (e.g., 3.5): ");
         }
 
-        // Create song and add to playlist
         Song newSong = new Song(title, artist, genre, decade, duration);
         AddSong(newSong);
     }
@@ -122,7 +129,7 @@ public class Playlist
     
     public void SearchByTitle(string title)
     {
-        SongNode temp = head;
+        SongNode? temp = head;
         while (temp != null)
         {
             if (temp.Data.Title.Equals(title, StringComparison.OrdinalIgnoreCase))
@@ -136,11 +143,11 @@ public class Playlist
         Console.WriteLine("\nSong not found.");
     }
 
-    // Search by Artist
+    
     public void SearchByArtist(string artist)
     {
         bool found = false;
-        SongNode temp = head;
+        SongNode? temp = head;
         Console.WriteLine($"\nSongs by {artist}:");
         while (temp != null)
         {
@@ -156,11 +163,11 @@ public class Playlist
             Console.WriteLine("No songs found by this artist.");
     }
 
-    // Search by Genre
+    
     public void SearchByGenre(string genre)
     {
         bool found = false;
-        SongNode temp = head;
+        SongNode? temp = head;
         Console.WriteLine($"\nSongs in {genre} genre:");
         while (temp != null)
         {
@@ -176,9 +183,16 @@ public class Playlist
             Console.WriteLine("No songs found in this genre.");
     }
 
-    public void SortPlaylist(string criteria)               //Merge Sort
+    /*public void SortPlaylist(string criteria)
     {
+        DateTime startTime = DateTime.Now;
+
         head = MergeSort(head, criteria);
+
+        DateTime endTime = DateTime.Now;
+        TimeSpan duration = endTime - startTime;
+
+        Console.WriteLine($"Merge Sort Execution Time: {duration.TotalMilliseconds} ms");
     }
 
     private SongNode MergeSort(SongNode head, string criteria)
@@ -241,19 +255,21 @@ public class Playlist
             fast = fast.Next.Next;
         }
         return slow;
-    }
+    }*/
 
     /*public void SortPlaylist(string criteria)   //Bubble Sort
     {
         if (head == null || head.Next == null)
             return;
 
+        DateTime startTime = DateTime.Now; 
+
         bool swapped;
         do
         {
             swapped = false;
-            SongNode current = head;
-            SongNode prev = null;
+            SongNode? current = head;
+            SongNode? prev = null;
 
             while (current.Next != null)
             {
@@ -274,7 +290,7 @@ public class Playlist
                 if (shouldSwap)
                 {
                     // Swap data
-                    Song temp = current.Data;
+                    Song? temp = current.Data;
                     current.Data = current.Next.Data;
                     current.Next.Data = temp;
                     swapped = true;
@@ -283,24 +299,36 @@ public class Playlist
                 current = current.Next;
             }
         } while (swapped);
+
+        DateTime endTime = DateTime.Now; // End time tracking
+        TimeSpan duration = endTime - startTime;
+
+        Console.WriteLine($"Bubble Sort Execution Time: {duration.TotalMilliseconds} ms");
     }*/
 
-    /*public void SortPlaylist(string criteria)           //Quick Sort
-    {
+    public void SortPlaylist(string criteria)           //Quick Sort
+    {   
+        DateTime startTime = DateTime.Now;
+
         head = QuickSort(head, GetTail(head), criteria);
+
+        DateTime endTime = DateTime.Now;
+        TimeSpan duration = endTime - startTime;
+
+        Console.WriteLine($"Quick Sort Execution Time: {duration.TotalMilliseconds} ms");
     }
 
-    private SongNode QuickSort(SongNode head, SongNode tail, string criteria)
+    private SongNode? QuickSort(SongNode head, SongNode tail, string criteria)
     {
         if (head == null || head == tail)
             return head;
 
-        SongNode newHead = null, newTail = null;
-        SongNode pivot = Partition(head, tail, ref newHead, ref newTail, criteria);
+        SongNode? newHead = null, newTail = null;
+        SongNode? pivot = Partition(head, tail, ref newHead, ref newTail, criteria);
 
         if (newHead != pivot)
         {
-            SongNode temp = newHead;
+            SongNode? temp = newHead;
             while (temp.Next != pivot)
                 temp = temp.Next;
             temp.Next = null;
@@ -315,10 +343,10 @@ public class Playlist
         return newHead;
     }
 
-    private SongNode Partition(SongNode head, SongNode tail, ref SongNode newHead, ref SongNode newTail, string criteria)
+    private SongNode? Partition(SongNode head, SongNode tail, ref SongNode newHead, ref SongNode newTail, string criteria)
     {
-        SongNode pivot = tail;
-        SongNode prev = null, cur = head, tailPtr = pivot;
+        SongNode? pivot = tail;
+        SongNode? prev = null, cur = head, tailPtr = pivot;
 
         while (cur != pivot)
         {
@@ -345,7 +373,7 @@ public class Playlist
             else
             {
                 if (prev != null) prev.Next = cur.Next;
-                SongNode temp = cur.Next;
+                SongNode? temp = cur.Next;
                 cur.Next = null;
                 tailPtr.Next = cur;
                 tailPtr = cur;
@@ -358,17 +386,17 @@ public class Playlist
         return pivot;
     }
 
-    private SongNode GetTail(SongNode head)
+    private SongNode? GetTail(SongNode head)
     {
         while (head != null && head.Next != null)
             head = head.Next;
         return head;
-    }*/
+    }
 
 
-    public Song GetSongByTitle(string title)
+    public Song? GetSongByTitle(string title)
     {
-        SongNode temp = head;
+        SongNode? temp = head;
         while (temp != null)
         {
             if (temp.Data.Title.Equals(title, StringComparison.OrdinalIgnoreCase))
@@ -432,7 +460,7 @@ public class Playlist
     {
         if (head == null) return 0;
 
-        SongNode temp = head;
+        SongNode? temp = head;
         int favoriteDecade = 0;
         int maxCount = 0;
 
@@ -440,7 +468,7 @@ public class Playlist
         {
             int currentDecade = temp.Data.Decade;
             int count = 0;
-            SongNode check = head;
+            SongNode? check = head;
 
             while (check != null)
             {
@@ -465,7 +493,7 @@ public class Playlist
     {
         if (head == null) return "N/A";
 
-        SongNode temp = head;
+        SongNode? temp = head;
         string favoriteGenre = "";
         int maxCount = 0;
 
@@ -473,7 +501,7 @@ public class Playlist
         {
             string currentGenre = temp.Data.Genre;
             int count = 0;
-            SongNode check = head;
+            SongNode? check = head;
 
             while (check != null)
             {
@@ -503,7 +531,7 @@ public class Playlist
         }
 
         Console.WriteLine($"\nPlaylist: {Name}");
-        SongNode temp = head;
+        SongNode? temp = head;
         while (temp != null)
         {
             temp.Data.DisplaySong();
