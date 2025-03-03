@@ -3,7 +3,7 @@
 public class SongNode
 {
     public Song Data;
-    public SongNode Next;
+    public SongNode? Next;
 
     public SongNode(Song song)
     {
