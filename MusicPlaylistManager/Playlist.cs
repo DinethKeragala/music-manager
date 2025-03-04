@@ -180,7 +180,7 @@ public class Playlist
             Console.WriteLine("No songs found in this genre.");
     }
 
-    public void SortPlaylist(string criteria)               //Merge Sort
+    /*public void SortPlaylist(string criteria)               //Merge Sort
     {
         DateTime startTime = DateTime.Now;
 
@@ -252,7 +252,7 @@ public class Playlist
             fast = fast.Next.Next;
         }
         return slow;
-    }
+    }*/
 
     /*public void SortPlaylist(string criteria)   //Bubble Sort
     {
@@ -303,7 +303,7 @@ public class Playlist
         Console.WriteLine($"Bubble Sort Execution Time: {duration.TotalMilliseconds} ms");
     }*/
 
-    /*public void SortPlaylist(string criteria)           //Quick Sort
+    public void SortPlaylist(string criteria)           //Quick Sort
     {   
         DateTime startTime = DateTime.Now;
 
@@ -388,7 +388,7 @@ public class Playlist
         while (head != null && head.Next != null)
             head = head.Next;
         return head;
-    }*/
+    }
 
 
     public Song? GetSongByTitle(string title)

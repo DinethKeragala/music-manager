@@ -1,0 +1,1001 @@
+Title,Artist,Genre,Decade,Duration
+Hotel California 1,Adele,Rock,2010,3.5
+Bohemian Rhapsody 2,Eminem,Rock,2000,3.2
+Shape of You 3,Ed Sheeran,Classical,2000,4.7
+Halo 4,Coldplay,Hip-Hop,1970,4.7
+Hotel California 5,Eminem,Pop,2000,5.0
+Hotel California 6,Adele,Hip-Hop,2020,3.2
+Someone Like You 7,Adele,R&B,1990,2.8
+Someone Like You 8,MAGIC,Hip-Hop,2020,3.2
+Shape of You 9,Ed Sheeran,Hip-Hop,2010,4.7
+Viva La Vida 10,ABBA,Rock,1980,3.6
+Bohemian Rhapsody 11,ABBA,Electronic,2010,4.2
+Mamma Mia 12,Adele,Electronic,2000,2.6
+Shape of You 13,Drake,Indie,2010,3.7
+Blinding Lights 14,Ed Sheeran,Pop,2020,3.4
+Shape of You 15,Coldplay,Country,1990,5.2
+Hotel California 16,Coldplay,Hip-Hop,1990,4.3
+Hotel California 17,MAGIC,Reggae,1970,5.0
+Bohemian Rhapsody 18,MAGIC,Reggae,1990,3.1
+Perfect 19,Taylor Swift,Jazz,2000,5.2
+Someone Like You 20,The Beatles,Hip-Hop,2010,3.4
+Rude 21,Drake,R&B,1970,3.8
+Mamma Mia 22,MAGIC,Rock,2010,3.0
+Bohemian Rhapsody 23,Eminem,Jazz,2000,3.8
+Someone Like You 24,Drake,Classical,2010,2.6
+Someone Like You 25,Adele,Reggae,1990,2.6
+Halo 26,Eminem,Pop,1980,2.6
+Blinding Lights 27,ABBA,Hip-Hop,1980,4.8
+Hotel California 28,MAGIC,R&B,1970,3.7
+Someone Like You 29,Drake,Hip-Hop,2020,4.2
+Hotel California 30,Drake,Country,2000,5.0
+Viva La Vida 31,MAGIC,Jazz,2010,5.1
+Rude 32,MAGIC,Rock,1980,3.7
+Halo 33,Drake,Pop,1990,2.6
+Viva La Vida 34,Taylor Swift,Pop,1970,3.5
+Bohemian Rhapsody 35,ABBA,Indie,2010,4.6
+Perfect 36,Taylor Swift,Jazz,1980,3.5
+Shape of You 37,Coldplay,Electronic,2010,3.8
+Mamma Mia 38,Ed Sheeran,Pop,2000,4.0
+Perfect 39,Ed Sheeran,Pop,1980,5.0
+Blinding Lights 40,The Beatles,Classical,2010,5.5
+Perfect 41,Drake,Reggae,2010,2.6
+Viva La Vida 42,ABBA,Indie,2020,2.7
+Viva La Vida 43,Coldplay,Pop,1980,5.2
+Shape of You 44,Taylor Swift,Rock,2020,4.1
+Shape of You 45,ABBA,R&B,1980,5.0
+Bohemian Rhapsody 46,Coldplay,Reggae,2000,3.4
+Halo 47,Adele,Rock,1980,3.8
+Perfect 48,Coldplay,Rock,2000,3.4
+Rude 49,Taylor Swift,Indie,2000,3.9
+Halo 50,The Beatles,Hip-Hop,1970,3.5
+Blinding Lights 51,Eminem,Electronic,2020,2.7
+Perfect 52,ABBA,Rock,2010,4.9
+Blinding Lights 53,Adele,Jazz,2000,4.9
+Blinding Lights 54,Ed Sheeran,Hip-Hop,2020,3.5
+Someone Like You 55,Taylor Swift,Pop,1970,5.3
+Hotel California 56,The Beatles,Pop,2010,3.8
+Halo 57,Coldplay,Classical,2000,3.0
+Hotel California 58,Beyoncé,Indie,2020,5.0
+Halo 59,Adele,Jazz,1970,5.1
+Bohemian Rhapsody 60,MAGIC,Pop,2010,3.9
+Hotel California 61,Coldplay,Rock,1980,5.4
+Shape of You 62,Beyoncé,Hip-Hop,1970,3.6
+Mamma Mia 63,Eminem,Indie,2000,5.2
+Blinding Lights 64,Adele,Classical,1980,3.1
+Viva La Vida 65,Drake,Pop,1980,3.4
+Blinding Lights 66,ABBA,Electronic,1990,5.2
+Bohemian Rhapsody 67,Adele,Indie,1970,3.7
+Blinding Lights 68,Drake,Rock,2020,3.9
+Mamma Mia 69,Ed Sheeran,Classical,1980,3.8
+Viva La Vida 70,Coldplay,Jazz,2020,5.3
+Perfect 71,Drake,Rock,2010,5.1
+Rude 72,Adele,Indie,2020,5.1
+Someone Like You 73,MAGIC,Classical,2020,4.8
+Halo 74,Adele,Hip-Hop,1970,3.4
+Blinding Lights 75,ABBA,Jazz,2020,5.1
+Mamma Mia 76,Drake,Jazz,2020,2.7
+Mamma Mia 77,Drake,R&B,1990,4.5
+Halo 78,Adele,Country,1990,4.7
+Rude 79,Adele,Indie,2020,3.9
+Hotel California 80,Drake,Reggae,2020,3.9
+Mamma Mia 81,ABBA,Hip-Hop,2020,5.4
+Shape of You 82,Adele,Jazz,1990,2.8
+Shape of You 83,Beyoncé,Reggae,1980,4.3
+Hotel California 84,Eminem,Indie,2000,4.3
+Perfect 85,Eminem,Hip-Hop,2020,4.2
+Bohemian Rhapsody 86,ABBA,R&B,2000,3.8
+Rude 87,Eminem,Rock,2000,3.9
+Mamma Mia 88,Ed Sheeran,Rock,2020,5.1
+Bohemian Rhapsody 89,Drake,Rock,1990,4.6
+Mamma Mia 90,Drake,Hip-Hop,2020,4.3
+Rude 91,MAGIC,Country,2010,5.0
+Shape of You 92,Ed Sheeran,Indie,2000,5.5
+Viva La Vida 93,MAGIC,R&B,2020,4.9
+Hotel California 94,Coldplay,Jazz,2010,3.3
+Hotel California 95,The Beatles,Country,2010,2.7
+Rude 96,Coldplay,Country,1980,3.4
+Someone Like You 97,Ed Sheeran,R&B,2000,3.7
+Someone Like You 98,Adele,Pop,2010,2.9
+Viva La Vida 99,Adele,Rock,2010,3.2
+Hotel California 100,Drake,Indie,2000,3.5
+Bohemian Rhapsody 101,Ed Sheeran,Hip-Hop,2010,3.0
+Mamma Mia 102,Adele,Indie,1990,3.0
+Hotel California 103,Drake,Indie,1980,2.9
+Blinding Lights 104,Adele,Hip-Hop,2010,3.6
+Perfect 105,MAGIC,Electronic,1970,5.4
+Bohemian Rhapsody 106,MAGIC,Rock,2000,4.1
+Bohemian Rhapsody 107,Beyoncé,Classical,1990,4.4
+Rude 108,Taylor Swift,Pop,2010,4.2
+Perfect 109,The Beatles,R&B,1980,4.6
+Mamma Mia 110,The Beatles,Rock,1990,5.5
+Someone Like You 111,The Beatles,Pop,1980,3.5
+Rude 112,Eminem,Hip-Hop,2020,5.2
+Shape of You 113,Ed Sheeran,R&B,2010,2.5
+Hotel California 114,The Beatles,Pop,1980,3.3
+Hotel California 115,The Beatles,Electronic,1970,4.8
+Blinding Lights 116,Coldplay,Electronic,1970,3.1
+Hotel California 117,MAGIC,Reggae,2010,4.8
+Hotel California 118,The Beatles,Indie,2010,4.3
+Perfect 119,ABBA,Rock,2020,4.8
+Halo 120,Beyoncé,Indie,2010,4.9
+Bohemian Rhapsody 121,MAGIC,Hip-Hop,2010,4.1
+Halo 122,Eminem,Electronic,1970,3.0
+Bohemian Rhapsody 123,The Beatles,R&B,1990,3.1
+Someone Like You 124,Taylor Swift,Hip-Hop,1980,4.4
+Bohemian Rhapsody 125,Eminem,Indie,2000,3.0
+Perfect 126,MAGIC,Country,1980,3.1
+Bohemian Rhapsody 127,Beyoncé,Country,2010,3.5
+Halo 128,Adele,Country,2010,3.7
+Blinding Lights 129,Drake,Classical,1980,5.0
+Hotel California 130,The Beatles,R&B,2020,4.5
+Hotel California 131,MAGIC,Reggae,1990,3.7
+Someone Like You 132,Ed Sheeran,R&B,1980,4.4
+Shape of You 133,ABBA,Electronic,2010,3.0
+Shape of You 134,Adele,Classical,1980,4.2
+Halo 135,ABBA,Country,1970,3.2
+Rude 136,Beyoncé,R&B,1970,3.8
+Shape of You 137,The Beatles,Jazz,2020,3.9
+Bohemian Rhapsody 138,Ed Sheeran,Reggae,1990,5.3
+Bohemian Rhapsody 139,Coldplay,Pop,2010,5.2
+Mamma Mia 140,Ed Sheeran,Hip-Hop,1990,3.2
+Someone Like You 141,MAGIC,Jazz,2010,4.3
+Halo 142,The Beatles,Hip-Hop,1980,2.8
+Blinding Lights 143,Coldplay,Hip-Hop,1990,3.1
+Bohemian Rhapsody 144,Eminem,Indie,2020,4.9
+Perfect 145,Coldplay,Jazz,2010,3.2
+Mamma Mia 146,Beyoncé,Electronic,1980,2.8
+Viva La Vida 147,Drake,Pop,2020,5.3
+Hotel California 148,The Beatles,Rock,2020,4.4
+Hotel California 149,Drake,Rock,2000,4.2
+Hotel California 150,Beyoncé,Jazz,2020,4.1
+Rude 151,Ed Sheeran,Rock,1980,4.7
+Bohemian Rhapsody 152,Eminem,Electronic,2020,3.9
+Bohemian Rhapsody 153,Taylor Swift,Rock,2000,4.3
+Viva La Vida 154,MAGIC,R&B,2010,5.3
+Viva La Vida 155,Eminem,Country,2020,4.7
+Hotel California 156,Ed Sheeran,Electronic,1990,3.6
+Viva La Vida 157,Ed Sheeran,Country,2000,4.7
+Bohemian Rhapsody 158,Beyoncé,Rock,2020,4.4
+Mamma Mia 159,Beyoncé,Indie,1990,3.9
+Mamma Mia 160,ABBA,Hip-Hop,2020,4.0
+Halo 161,Coldplay,Pop,2010,3.8
+Someone Like You 162,MAGIC,Pop,2000,5.3
+Someone Like You 163,Eminem,Indie,1990,3.9
+Halo 164,Taylor Swift,Rock,2000,4.7
+Mamma Mia 165,MAGIC,Indie,2000,2.6
+Perfect 166,Coldplay,Pop,1990,2.7
+Shape of You 167,Drake,Reggae,2020,4.3
+Someone Like You 168,Coldplay,Indie,2010,4.2
+Halo 169,Taylor Swift,Electronic,2020,3.6
+Blinding Lights 170,Taylor Swift,Hip-Hop,2000,3.7
+Viva La Vida 171,MAGIC,R&B,2000,3.1
+Blinding Lights 172,The Beatles,Hip-Hop,2010,5.2
+Bohemian Rhapsody 173,Drake,Electronic,2020,3.4
+Rude 174,ABBA,Jazz,1980,3.9
+Halo 175,Eminem,Indie,2010,4.1
+Shape of You 176,Adele,Classical,1990,3.3
+Viva La Vida 177,ABBA,Pop,1980,3.7
+Shape of You 178,ABBA,Pop,1990,5.2
+Blinding Lights 179,MAGIC,Rock,1990,3.1
+Rude 180,Adele,Electronic,2000,2.7
+Someone Like You 181,Eminem,Electronic,2010,3.6
+Someone Like You 182,Taylor Swift,Reggae,2010,4.8
+Mamma Mia 183,The Beatles,R&B,1990,2.9
+Viva La Vida 184,Beyoncé,Indie,1970,2.6
+Hotel California 185,ABBA,Reggae,2010,3.0
+Halo 186,MAGIC,Reggae,1990,4.9
+Rude 187,Ed Sheeran,Electronic,1980,5.2
+Hotel California 188,Taylor Swift,Indie,2000,4.3
+Bohemian Rhapsody 189,ABBA,Reggae,1980,2.6
+Perfect 190,Taylor Swift,Hip-Hop,2010,4.7
+Rude 191,Beyoncé,Jazz,2020,5.1
+Hotel California 192,ABBA,Rock,1990,2.8
+Shape of You 193,ABBA,Classical,1990,2.6
+Hotel California 194,Adele,Jazz,1980,4.5
+Rude 195,Eminem,Rock,1990,4.4
+Halo 196,Adele,Hip-Hop,1970,2.9
+Bohemian Rhapsody 197,Drake,Electronic,1970,3.3
+Halo 198,Drake,Classical,2000,2.8
+Shape of You 199,ABBA,Reggae,2000,5.4
+Bohemian Rhapsody 200,Taylor Swift,Reggae,1980,4.6
+Viva La Vida 201,Ed Sheeran,Hip-Hop,1980,4.0
+Halo 202,Taylor Swift,Electronic,1970,3.8
+Hotel California 203,Coldplay,Classical,1990,3.6
+Hotel California 204,Beyoncé,Rock,1980,4.2
+Hotel California 205,Coldplay,R&B,2020,4.3
+Someone Like You 206,Drake,Hip-Hop,2010,3.4
+Blinding Lights 207,Drake,Electronic,1990,4.7
+Viva La Vida 208,Coldplay,Jazz,2020,4.1
+Perfect 209,MAGIC,Jazz,2000,5.4
+Blinding Lights 210,Coldplay,R&B,2000,3.4
+Viva La Vida 211,Beyoncé,Electronic,1990,4.0
+Blinding Lights 212,ABBA,Rock,2000,4.4
+Viva La Vida 213,MAGIC,Country,1980,4.3
+Halo 214,MAGIC,Pop,1990,4.5
+Perfect 215,Ed Sheeran,Indie,2020,5.1
+Bohemian Rhapsody 216,Adele,Electronic,2020,4.8
+Someone Like You 217,The Beatles,Hip-Hop,2000,3.3
+Mamma Mia 218,MAGIC,Rock,2000,2.7
+Hotel California 219,ABBA,Indie,1990,2.7
+Halo 220,MAGIC,Classical,2010,2.9
+Hotel California 221,Eminem,Indie,1970,3.1
+Perfect 222,Taylor Swift,Indie,1980,3.7
+Someone Like You 223,Adele,Pop,2010,5.0
+Shape of You 224,Adele,Indie,1990,2.6
+Blinding Lights 225,Ed Sheeran,Indie,1990,5.5
+Someone Like You 226,The Beatles,Rock,1970,3.1
+Halo 227,Adele,Pop,1970,2.5
+Blinding Lights 228,Ed Sheeran,Indie,1970,2.7
+Perfect 229,ABBA,Indie,2020,5.5
+Someone Like You 230,Coldplay,Jazz,2000,2.8
+Hotel California 231,Coldplay,R&B,2000,5.1
+Halo 232,Adele,Pop,2000,4.4
+Shape of You 233,Beyoncé,R&B,1990,5.3
+Perfect 234,ABBA,Jazz,2010,3.8
+Rude 235,Ed Sheeran,R&B,2010,4.6
+Shape of You 236,MAGIC,Electronic,2020,5.4
+Hotel California 237,MAGIC,Country,1980,2.7
+Rude 238,Drake,Classical,2020,3.0
+Perfect 239,Adele,Hip-Hop,1980,3.9
+Someone Like You 240,Ed Sheeran,Reggae,2000,5.1
+Viva La Vida 241,Adele,R&B,1980,4.1
+Mamma Mia 242,MAGIC,Country,1990,3.7
+Rude 243,MAGIC,Hip-Hop,1970,5.0
+Hotel California 244,Adele,Indie,2010,4.3
+Rude 245,The Beatles,Jazz,2020,2.8
+Shape of You 246,The Beatles,Rock,1980,5.3
+Perfect 247,Beyoncé,Electronic,2000,4.9
+Halo 248,Coldplay,Rock,2010,3.4
+Halo 249,Ed Sheeran,Country,2000,4.1
+Viva La Vida 250,The Beatles,Hip-Hop,1980,5.3
+Rude 251,ABBA,Classical,1970,5.3
+Shape of You 252,ABBA,Pop,1990,5.3
+Halo 253,ABBA,Jazz,1990,4.8
+Rude 254,Taylor Swift,Electronic,1980,3.6
+Halo 255,Drake,Hip-Hop,1970,3.1
+Someone Like You 256,Ed Sheeran,Hip-Hop,2020,4.5
+Halo 257,Beyoncé,R&B,2000,2.8
+Viva La Vida 258,MAGIC,Pop,2020,2.6
+Perfect 259,Eminem,Electronic,1980,2.7
+Hotel California 260,MAGIC,Pop,2000,5.2
+Shape of You 261,Eminem,Reggae,1970,4.9
+Shape of You 262,Adele,R&B,1990,3.8
+Shape of You 263,The Beatles,Rock,2020,4.8
+Viva La Vida 264,MAGIC,Indie,1980,3.3
+Mamma Mia 265,Eminem,Rock,1980,3.7
+Halo 266,Ed Sheeran,Hip-Hop,2010,3.4
+Bohemian Rhapsody 267,Ed Sheeran,Pop,1980,4.5
+Shape of You 268,Eminem,Reggae,1990,4.4
+Perfect 269,Adele,Indie,1980,3.5
+Bohemian Rhapsody 270,Ed Sheeran,Pop,1970,5.2
+Rude 271,Coldplay,R&B,2000,3.2
+Bohemian Rhapsody 272,Eminem,Classical,2010,4.9
+Someone Like You 273,ABBA,Indie,1980,5.1
+Mamma Mia 274,Ed Sheeran,Reggae,1990,3.6
+Blinding Lights 275,Beyoncé,Electronic,1980,5.2
+Hotel California 276,Adele,Electronic,1980,4.1
+Shape of You 277,The Beatles,Jazz,2010,5.0
+Rude 278,Taylor Swift,Indie,2010,4.3
+Shape of You 279,Ed Sheeran,Jazz,1970,5.3
+Halo 280,ABBA,Jazz,1980,3.1
+Mamma Mia 281,The Beatles,Classical,2010,5.1
+Viva La Vida 282,Adele,Jazz,2010,4.0
+Bohemian Rhapsody 283,ABBA,Country,2020,3.7
+Halo 284,Coldplay,Indie,1980,5.4
+Shape of You 285,Beyoncé,R&B,1970,2.9
+Hotel California 286,MAGIC,Rock,2010,3.4
+Bohemian Rhapsody 287,Coldplay,R&B,1980,5.2
+Blinding Lights 288,Coldplay,Electronic,1990,3.4
+Halo 289,Beyoncé,Classical,1990,5.0
+Bohemian Rhapsody 290,Coldplay,Hip-Hop,1990,2.9
+Shape of You 291,Ed Sheeran,Rock,2020,4.2
+Perfect 292,Coldplay,Indie,2010,2.6
+Blinding Lights 293,ABBA,Indie,2020,2.6
+Shape of You 294,MAGIC,Reggae,2020,3.0
+Rude 295,MAGIC,Reggae,2000,4.5
+Perfect 296,Drake,Rock,2000,4.4
+Halo 297,Drake,Rock,1980,4.1
+Perfect 298,Taylor Swift,Hip-Hop,2020,4.7
+Bohemian Rhapsody 299,Eminem,Indie,1970,2.5
+Viva La Vida 300,Ed Sheeran,Reggae,2020,4.6
+Blinding Lights 301,Beyoncé,Reggae,1970,2.9
+Shape of You 302,Beyoncé,R&B,1970,4.2
+Hotel California 303,Adele,Country,1980,4.3
+Bohemian Rhapsody 304,MAGIC,Indie,1970,2.9
+Hotel California 305,ABBA,R&B,1980,2.9
+Perfect 306,Eminem,Indie,2000,3.4
+Shape of You 307,Coldplay,Hip-Hop,2010,3.7
+Perfect 308,ABBA,Electronic,1990,2.6
+Halo 309,Drake,Hip-Hop,1990,4.1
+Bohemian Rhapsody 310,Coldplay,Hip-Hop,1970,5.3
+Bohemian Rhapsody 311,The Beatles,Hip-Hop,2020,5.3
+Hotel California 312,Drake,Rock,1990,4.9
+Hotel California 313,Adele,Indie,2020,4.8
+Someone Like You 314,ABBA,Pop,1970,5.5
+Halo 315,The Beatles,Country,1970,5.1
+Blinding Lights 316,Eminem,Indie,2020,4.5
+Blinding Lights 317,Taylor Swift,Country,1980,2.6
+Bohemian Rhapsody 318,ABBA,Electronic,2020,3.2
+Shape of You 319,Eminem,Indie,1970,4.2
+Hotel California 320,The Beatles,Hip-Hop,1980,4.4
+Viva La Vida 321,Coldplay,Hip-Hop,1990,5.0
+Halo 322,MAGIC,R&B,1980,4.7
+Rude 323,The Beatles,Rock,1980,5.4
+Mamma Mia 324,Ed Sheeran,Rock,2000,4.4
+Mamma Mia 325,Eminem,Pop,1980,4.3
+Rude 326,Ed Sheeran,Jazz,2000,3.7
+Shape of You 327,ABBA,Indie,1970,4.8
+Bohemian Rhapsody 328,Taylor Swift,Country,2020,5.4
+Perfect 329,Beyoncé,Reggae,1970,4.2
+Perfect 330,Eminem,Rock,2020,2.8
+Shape of You 331,Eminem,Classical,1980,2.9
+Perfect 332,The Beatles,Hip-Hop,2010,2.7
+Shape of You 333,Drake,Indie,2000,5.1
+Rude 334,Eminem,Pop,2020,3.0
+Halo 335,ABBA,Reggae,1980,2.5
+Viva La Vida 336,Adele,Reggae,2020,5.1
+Shape of You 337,ABBA,Rock,1970,4.2
+Halo 338,Beyoncé,Rock,1980,3.5
+Halo 339,Taylor Swift,R&B,2020,3.1
+Perfect 340,Adele,Jazz,2010,4.2
+Blinding Lights 341,Ed Sheeran,R&B,1980,3.3
+Blinding Lights 342,Beyoncé,Rock,1980,5.4
+Shape of You 343,Coldplay,Country,2010,2.9
+Bohemian Rhapsody 344,Coldplay,Classical,1970,4.6
+Shape of You 345,Eminem,Reggae,2020,3.2
+Hotel California 346,ABBA,R&B,2020,2.9
+Rude 347,ABBA,Rock,1970,2.7
+Perfect 348,MAGIC,Indie,1990,2.9
+Rude 349,Coldplay,Classical,1980,4.9
+Halo 350,ABBA,Country,2010,4.5
+Bohemian Rhapsody 351,Coldplay,R&B,2020,2.9
+Mamma Mia 352,Drake,Country,2010,4.0
+Shape of You 353,MAGIC,Electronic,2010,4.7
+Someone Like You 354,Drake,Classical,2020,3.1
+Mamma Mia 355,The Beatles,Indie,2010,4.3
+Viva La Vida 356,Adele,Country,2010,3.7
+Perfect 357,Ed Sheeran,Pop,1980,3.2
+Bohemian Rhapsody 358,MAGIC,Indie,1970,2.8
+Halo 359,Beyoncé,Indie,2020,3.9
+Perfect 360,Ed Sheeran,Jazz,1970,4.8
+Mamma Mia 361,Taylor Swift,Rock,1990,5.4
+Blinding Lights 362,Eminem,Reggae,1970,4.5
+Rude 363,Drake,Pop,1990,3.4
+Bohemian Rhapsody 364,Adele,Classical,1990,2.9
+Hotel California 365,Ed Sheeran,Country,2010,2.7
+Bohemian Rhapsody 366,Eminem,R&B,2010,3.3
+Halo 367,The Beatles,Hip-Hop,1970,4.2
+Halo 368,ABBA,Hip-Hop,2010,3.6
+Halo 369,Ed Sheeran,Indie,1980,5.4
+Blinding Lights 370,Beyoncé,R&B,1970,5.4
+Shape of You 371,MAGIC,Jazz,2000,5.2
+Viva La Vida 372,Ed Sheeran,Reggae,1990,5.3
+Bohemian Rhapsody 373,Coldplay,Electronic,1990,5.5
+Blinding Lights 374,Coldplay,Pop,1980,3.5
+Rude 375,The Beatles,Classical,1980,3.1
+Shape of You 376,Coldplay,Classical,1970,3.3
+Viva La Vida 377,The Beatles,Rock,1970,5.0
+Halo 378,Adele,Reggae,2010,3.8
+Blinding Lights 379,Coldplay,Pop,2020,5.0
+Blinding Lights 380,Coldplay,Jazz,1980,2.6
+Halo 381,Eminem,Hip-Hop,1980,3.0
+Perfect 382,The Beatles,Electronic,2010,4.7
+Hotel California 383,ABBA,Country,2000,4.2
+Shape of You 384,MAGIC,Reggae,1990,3.8
+Hotel California 385,Ed Sheeran,Classical,1970,3.9
+Shape of You 386,Beyoncé,Indie,2000,3.5
+Perfect 387,Ed Sheeran,Electronic,1990,5.4
+Mamma Mia 388,Beyoncé,Reggae,2020,3.3
+Viva La Vida 389,ABBA,Classical,2010,3.6
+Someone Like You 390,ABBA,Hip-Hop,2020,5.0
+Hotel California 391,Ed Sheeran,Indie,1970,3.4
+Bohemian Rhapsody 392,ABBA,Rock,1970,4.0
+Halo 393,Taylor Swift,R&B,2000,3.0
+Shape of You 394,Ed Sheeran,Rock,2020,4.2
+Someone Like You 395,ABBA,Country,1980,5.0
+Hotel California 396,Drake,Pop,1970,4.8
+Halo 397,Adele,Classical,2020,2.6
+Halo 398,MAGIC,Indie,2000,3.6
+Mamma Mia 399,Drake,Pop,2020,4.0
+Perfect 400,Beyoncé,Pop,1980,4.5
+Hotel California 401,Coldplay,Pop,2010,2.7
+Rude 402,ABBA,Jazz,2000,3.4
+Perfect 403,The Beatles,R&B,2000,2.9
+Shape of You 404,Ed Sheeran,Indie,1980,5.2
+Blinding Lights 405,Coldplay,Indie,1980,5.2
+Hotel California 406,Drake,Pop,1970,4.5
+Halo 407,Drake,Indie,1970,3.7
+Rude 408,MAGIC,R&B,2020,3.9
+Shape of You 409,Ed Sheeran,Country,1980,4.9
+Hotel California 410,Taylor Swift,Country,1980,3.1
+Blinding Lights 411,MAGIC,Country,2000,5.2
+Hotel California 412,MAGIC,R&B,1970,5.3
+Mamma Mia 413,Coldplay,Reggae,2020,5.0
+Hotel California 414,MAGIC,Electronic,2000,4.1
+Someone Like You 415,Ed Sheeran,Jazz,2000,4.8
+Bohemian Rhapsody 416,Ed Sheeran,Pop,2000,3.6
+Bohemian Rhapsody 417,Drake,Reggae,1990,4.4
+Blinding Lights 418,Taylor Swift,Rock,1970,4.7
+Shape of You 419,Eminem,R&B,1980,5.0
+Someone Like You 420,Coldplay,R&B,1970,3.5
+Halo 421,Coldplay,Classical,2000,2.7
+Hotel California 422,Adele,R&B,2020,3.1
+Hotel California 423,Taylor Swift,Indie,2020,3.7
+Hotel California 424,The Beatles,Electronic,2010,3.5
+Bohemian Rhapsody 425,The Beatles,Reggae,2020,5.2
+Mamma Mia 426,Coldplay,Pop,2020,4.7
+Blinding Lights 427,Ed Sheeran,Hip-Hop,2020,5.4
+Someone Like You 428,ABBA,Rock,1990,2.7
+Halo 429,ABBA,Indie,2000,3.9
+Shape of You 430,Coldplay,Pop,2020,2.9
+Shape of You 431,Eminem,Rock,2020,4.0
+Blinding Lights 432,Beyoncé,Country,2010,4.6
+Rude 433,Eminem,Classical,1980,4.0
+Blinding Lights 434,Taylor Swift,Reggae,1990,5.5
+Halo 435,Ed Sheeran,Classical,1970,4.8
+Shape of You 436,Beyoncé,R&B,1970,2.8
+Hotel California 437,Taylor Swift,R&B,1990,4.2
+Shape of You 438,Eminem,Reggae,2000,2.6
+Bohemian Rhapsody 439,The Beatles,Reggae,1970,4.6
+Perfect 440,Taylor Swift,Country,2000,3.5
+Rude 441,ABBA,Electronic,2000,3.5
+Hotel California 442,The Beatles,Indie,2010,2.8
+Perfect 443,Eminem,R&B,2000,3.9
+Halo 444,Eminem,Electronic,1970,5.2
+Bohemian Rhapsody 445,MAGIC,Rock,2000,4.7
+Someone Like You 446,Drake,Rock,2020,5.1
+Someone Like You 447,MAGIC,Classical,1990,4.3
+Rude 448,The Beatles,Reggae,1990,5.2
+Mamma Mia 449,Drake,Electronic,1980,4.9
+Viva La Vida 450,Drake,Country,2000,4.7
+Rude 451,The Beatles,Electronic,2000,4.7
+Viva La Vida 452,MAGIC,Indie,2010,4.3
+Blinding Lights 453,Adele,Rock,1970,4.9
+Rude 454,Coldplay,Reggae,1980,4.8
+Shape of You 455,MAGIC,Jazz,1980,4.9
+Blinding Lights 456,The Beatles,Pop,2000,3.7
+Hotel California 457,Adele,Pop,2010,2.6
+Perfect 458,ABBA,Rock,2000,2.5
+Halo 459,Ed Sheeran,Indie,2020,5.3
+Shape of You 460,Beyoncé,Reggae,1970,4.2
+Rude 461,Eminem,Pop,1990,3.4
+Shape of You 462,Adele,Electronic,1990,4.4
+Shape of You 463,Drake,Electronic,2000,2.5
+Shape of You 464,ABBA,Rock,1970,3.3
+Rude 465,Eminem,R&B,1980,2.8
+Bohemian Rhapsody 466,Taylor Swift,Hip-Hop,2000,2.6
+Rude 467,Beyoncé,Rock,1990,3.6
+Someone Like You 468,Coldplay,Indie,2010,4.6
+Perfect 469,Taylor Swift,Indie,1990,2.6
+Blinding Lights 470,Beyoncé,Reggae,1980,4.4
+Mamma Mia 471,ABBA,Pop,1990,5.0
+Viva La Vida 472,MAGIC,Jazz,1990,4.5
+Mamma Mia 473,Eminem,Hip-Hop,1970,5.1
+Bohemian Rhapsody 474,Drake,Classical,2000,3.5
+Bohemian Rhapsody 475,MAGIC,Rock,2000,2.9
+Viva La Vida 476,Beyoncé,Classical,2020,4.8
+Viva La Vida 477,Beyoncé,Electronic,1990,3.1
+Mamma Mia 478,Coldplay,Indie,2020,4.4
+Hotel California 479,Drake,Electronic,1990,5.2
+Blinding Lights 480,ABBA,R&B,2010,4.7
+Bohemian Rhapsody 481,Ed Sheeran,Pop,1990,5.1
+Viva La Vida 482,Ed Sheeran,Indie,2020,4.7
+Mamma Mia 483,ABBA,Electronic,1970,4.7
+Rude 484,ABBA,Jazz,1990,4.8
+Someone Like You 485,Coldplay,Reggae,2010,3.8
+Rude 486,Beyoncé,R&B,2010,3.1
+Perfect 487,Eminem,Jazz,1980,3.7
+Hotel California 488,ABBA,Classical,1980,2.7
+Halo 489,ABBA,Pop,1980,5.2
+Someone Like You 490,Drake,Jazz,1970,5.3
+Mamma Mia 491,Taylor Swift,Classical,1970,2.5
+Rude 492,Taylor Swift,Jazz,1980,3.8
+Shape of You 493,MAGIC,Jazz,1990,3.8
+Viva La Vida 494,Drake,Country,1980,3.4
+Mamma Mia 495,The Beatles,Hip-Hop,1970,5.5
+Halo 496,Ed Sheeran,Rock,1980,5.3
+Bohemian Rhapsody 497,Taylor Swift,Country,1970,3.1
+Bohemian Rhapsody 498,Beyoncé,Hip-Hop,2010,4.8
+Bohemian Rhapsody 499,Taylor Swift,Country,2020,4.8
+Halo 500,Coldplay,Hip-Hop,1990,2.6
+Someone Like You 501,MAGIC,Pop,1990,3.5
+Blinding Lights 502,Beyoncé,Rock,2020,4.3
+Hotel California 503,Beyoncé,Jazz,1980,2.7
+Someone Like You 504,Coldplay,Classical,2010,4.0
+Blinding Lights 505,Beyoncé,Reggae,1990,4.5
+Perfect 506,Adele,Classical,1990,2.9
+Shape of You 507,Adele,Jazz,2020,3.9
+Halo 508,Taylor Swift,Rock,2000,4.0
+Viva La Vida 509,Adele,Jazz,1970,3.9
+Hotel California 510,Drake,Jazz,2010,3.0
+Rude 511,The Beatles,Pop,2010,3.0
+Someone Like You 512,Eminem,Rock,1990,2.9
+Mamma Mia 513,Drake,Country,2020,3.7
+Shape of You 514,Adele,Hip-Hop,2010,4.2
+Halo 515,Beyoncé,R&B,1980,3.5
+Mamma Mia 516,Ed Sheeran,Hip-Hop,1980,3.9
+Perfect 517,Beyoncé,R&B,1990,3.0
+Viva La Vida 518,Coldplay,R&B,1990,5.0
+Rude 519,Beyoncé,R&B,2010,4.3
+Halo 520,Beyoncé,Rock,1980,5.1
+Hotel California 521,Adele,Jazz,2020,2.7
+Rude 522,Eminem,Pop,2000,3.1
+Mamma Mia 523,Eminem,Hip-Hop,2020,5.1
+Shape of You 524,Eminem,Pop,2010,4.3
+Halo 525,Drake,Hip-Hop,1980,3.4
+Viva La Vida 526,ABBA,Country,1970,4.4
+Bohemian Rhapsody 527,The Beatles,Pop,1980,4.8
+Someone Like You 528,MAGIC,Hip-Hop,1990,4.3
+Blinding Lights 529,Drake,Country,2010,3.2
+Viva La Vida 530,Taylor Swift,Classical,1970,3.1
+Blinding Lights 531,Beyoncé,R&B,1970,3.3
+Mamma Mia 532,Ed Sheeran,Electronic,1980,5.4
+Mamma Mia 533,The Beatles,Hip-Hop,1970,4.9
+Someone Like You 534,ABBA,Reggae,2020,3.3
+Someone Like You 535,MAGIC,Indie,2010,4.8
+Hotel California 536,ABBA,Reggae,1970,3.0
+Rude 537,MAGIC,Reggae,1970,3.8
+Bohemian Rhapsody 538,Coldplay,Classical,2000,2.8
+Shape of You 539,Eminem,Electronic,1990,3.1
+Perfect 540,ABBA,Rock,1990,4.4
+Bohemian Rhapsody 541,MAGIC,Jazz,1980,2.5
+Viva La Vida 542,The Beatles,Country,1970,5.5
+Shape of You 543,Drake,Reggae,1970,4.5
+Bohemian Rhapsody 544,Coldplay,Rock,2010,4.4
+Blinding Lights 545,Beyoncé,Country,2020,2.8
+Someone Like You 546,MAGIC,R&B,2010,4.4
+Perfect 547,ABBA,Indie,2020,3.7
+Bohemian Rhapsody 548,Coldplay,Pop,2010,3.1
+Shape of You 549,Taylor Swift,Pop,1970,4.1
+Bohemian Rhapsody 550,ABBA,Classical,1980,4.8
+Bohemian Rhapsody 551,ABBA,Hip-Hop,1970,2.8
+Someone Like You 552,Ed Sheeran,Hip-Hop,1970,3.1
+Bohemian Rhapsody 553,Ed Sheeran,Indie,1970,4.8
+Mamma Mia 554,Adele,Rock,2010,5.5
+Bohemian Rhapsody 555,Taylor Swift,Pop,2020,3.8
+Rude 556,Eminem,Country,1990,5.4
+Shape of You 557,Ed Sheeran,Hip-Hop,2010,3.6
+Blinding Lights 558,The Beatles,Hip-Hop,2020,5.2
+Mamma Mia 559,MAGIC,Jazz,2000,2.9
+Rude 560,Eminem,Indie,1980,3.6
+Halo 561,Drake,Rock,1980,4.3
+Shape of You 562,Coldplay,Jazz,1990,2.8
+Perfect 563,Ed Sheeran,Rock,2020,3.5
+Halo 564,Eminem,Pop,1970,3.6
+Blinding Lights 565,Beyoncé,Rock,2020,2.5
+Shape of You 566,Coldplay,Pop,1980,2.6
+Halo 567,The Beatles,Electronic,1980,3.8
+Someone Like You 568,Ed Sheeran,Pop,1970,3.9
+Mamma Mia 569,Taylor Swift,Rock,2010,4.4
+Halo 570,Drake,Rock,2000,3.4
+Bohemian Rhapsody 571,The Beatles,Rock,2020,2.7
+Viva La Vida 572,Eminem,Country,1970,3.9
+Halo 573,Coldplay,Classical,1990,5.3
+Rude 574,ABBA,Rock,1980,4.3
+Bohemian Rhapsody 575,Ed Sheeran,Jazz,2010,2.8
+Viva La Vida 576,Adele,Jazz,1970,5.2
+Mamma Mia 577,ABBA,Rock,1970,2.9
+Perfect 578,The Beatles,Hip-Hop,1990,3.8
+Shape of You 579,Eminem,Pop,2020,4.2
+Bohemian Rhapsody 580,Eminem,Classical,2010,5.1
+Hotel California 581,Adele,Electronic,1980,4.8
+Perfect 582,ABBA,Country,1970,4.9
+Rude 583,MAGIC,Hip-Hop,1990,3.7
+Halo 584,ABBA,Rock,2020,3.7
+Halo 585,Taylor Swift,Rock,2020,3.1
+Halo 586,The Beatles,Indie,2020,3.9
+Someone Like You 587,The Beatles,Reggae,1980,2.7
+Perfect 588,Adele,Country,1980,3.0
+Rude 589,Taylor Swift,Indie,2000,2.6
+Perfect 590,Taylor Swift,Pop,1990,2.6
+Perfect 591,MAGIC,Electronic,2000,4.5
+Perfect 592,Drake,R&B,2020,3.6
+Bohemian Rhapsody 593,MAGIC,Reggae,1970,5.3
+Bohemian Rhapsody 594,Adele,Classical,1980,3.3
+Perfect 595,Adele,Classical,2010,5.1
+Someone Like You 596,Beyoncé,Electronic,1990,2.8
+Shape of You 597,Eminem,Electronic,2000,3.4
+Blinding Lights 598,Drake,Indie,2000,3.8
+Halo 599,MAGIC,Pop,1990,4.4
+Viva La Vida 600,Ed Sheeran,Classical,1990,2.7
+Someone Like You 601,Beyoncé,Country,1970,3.6
+Rude 602,Drake,R&B,2000,2.8
+Shape of You 603,Taylor Swift,Reggae,1990,2.7
+Hotel California 604,Coldplay,Electronic,1980,4.8
+Shape of You 605,The Beatles,Reggae,2000,3.5
+Someone Like You 606,Beyoncé,Rock,2010,4.5
+Blinding Lights 607,Beyoncé,Classical,1990,4.8
+Bohemian Rhapsody 608,Ed Sheeran,R&B,2000,3.3
+Rude 609,Drake,Hip-Hop,2020,5.0
+Shape of You 610,Eminem,Electronic,1980,4.2
+Rude 611,Coldplay,Jazz,1990,4.2
+Hotel California 612,Coldplay,Rock,1990,2.9
+Bohemian Rhapsody 613,Taylor Swift,Hip-Hop,1970,3.5
+Blinding Lights 614,Drake,Classical,2000,2.9
+Halo 615,Coldplay,R&B,2010,2.6
+Halo 616,Coldplay,Hip-Hop,2010,3.3
+Hotel California 617,Ed Sheeran,Pop,2010,3.0
+Blinding Lights 618,Adele,Pop,1980,5.3
+Rude 619,Adele,Classical,1980,5.4
+Shape of You 620,ABBA,Country,1990,3.4
+Halo 621,Coldplay,Rock,2000,4.1
+Someone Like You 622,Drake,R&B,1990,3.9
+Perfect 623,ABBA,Indie,2010,4.7
+Rude 624,Coldplay,Classical,1980,3.3
+Perfect 625,Beyoncé,Hip-Hop,1990,3.3
+Rude 626,Drake,Classical,2020,4.3
+Rude 627,MAGIC,Hip-Hop,1970,3.2
+Someone Like You 628,Eminem,Reggae,2020,4.5
+Mamma Mia 629,Ed Sheeran,Indie,1970,5.2
+Perfect 630,Eminem,Rock,1970,3.1
+Viva La Vida 631,MAGIC,Reggae,2020,2.7
+Perfect 632,Coldplay,Electronic,2010,4.1
+Viva La Vida 633,Taylor Swift,Country,1990,4.4
+Perfect 634,Coldplay,Jazz,2000,4.1
+Mamma Mia 635,MAGIC,R&B,1990,4.6
+Rude 636,Ed Sheeran,Rock,1970,4.6
+Viva La Vida 637,Beyoncé,Jazz,2020,3.8
+Perfect 638,Beyoncé,Jazz,2020,3.5
+Someone Like You 639,The Beatles,Hip-Hop,2010,4.3
+Halo 640,Taylor Swift,Indie,1980,3.1
+Viva La Vida 641,Drake,Electronic,2000,4.1
+Someone Like You 642,Drake,Electronic,1980,4.0
+Bohemian Rhapsody 643,Drake,R&B,2020,2.8
+Bohemian Rhapsody 644,Ed Sheeran,R&B,1970,5.2
+Shape of You 645,Beyoncé,Electronic,2020,3.0
+Mamma Mia 646,Adele,Pop,2000,5.1
+Shape of You 647,Adele,Classical,2020,2.9
+Someone Like You 648,Coldplay,R&B,2020,5.1
+Rude 649,Ed Sheeran,Reggae,2020,2.7
+Bohemian Rhapsody 650,ABBA,Classical,2000,5.3
+Halo 651,The Beatles,Hip-Hop,1970,2.9
+Shape of You 652,Coldplay,Indie,1970,4.7
+Viva La Vida 653,Eminem,Hip-Hop,2000,3.8
+Shape of You 654,Ed Sheeran,Rock,2010,4.5
+Perfect 655,Beyoncé,Classical,2020,4.2
+Rude 656,Eminem,Indie,1980,3.7
+Halo 657,Coldplay,Pop,1970,4.3
+Bohemian Rhapsody 658,Drake,Pop,2010,3.5
+Someone Like You 659,Taylor Swift,Classical,1980,5.3
+Hotel California 660,Adele,R&B,2000,4.7
+Shape of You 661,Taylor Swift,Country,2020,4.1
+Shape of You 662,ABBA,Rock,1970,4.2
+Viva La Vida 663,Eminem,Rock,2010,2.9
+Blinding Lights 664,MAGIC,Reggae,1980,4.3
+Viva La Vida 665,Drake,Rock,1970,3.6
+Blinding Lights 666,Coldplay,Electronic,1970,3.6
+Bohemian Rhapsody 667,Beyoncé,Electronic,1980,3.2
+Someone Like You 668,The Beatles,R&B,1970,5.0
+Shape of You 669,Coldplay,R&B,1970,3.5
+Mamma Mia 670,Taylor Swift,Electronic,1970,4.7
+Mamma Mia 671,The Beatles,Country,2020,4.7
+Hotel California 672,Ed Sheeran,R&B,2000,4.9
+Bohemian Rhapsody 673,MAGIC,Rock,2010,3.2
+Someone Like You 674,Coldplay,Pop,1990,4.5
+Blinding Lights 675,Drake,Jazz,1990,5.0
+Bohemian Rhapsody 676,Eminem,Electronic,2020,2.5
+Rude 677,Coldplay,Hip-Hop,2000,5.0
+Mamma Mia 678,Adele,Country,1970,2.6
+Hotel California 679,Eminem,Classical,1990,4.5
+Halo 680,Ed Sheeran,Country,1980,3.1
+Shape of You 681,ABBA,R&B,2010,4.6
+Hotel California 682,MAGIC,Pop,2010,5.1
+Shape of You 683,Ed Sheeran,Electronic,1980,5.3
+Mamma Mia 684,Coldplay,Pop,1970,4.8
+Rude 685,Coldplay,Indie,1990,3.4
+Mamma Mia 686,Taylor Swift,Rock,1980,2.6
+Rude 687,The Beatles,R&B,1980,3.1
+Halo 688,Beyoncé,Jazz,2000,3.9
+Perfect 689,Taylor Swift,R&B,1970,3.7
+Shape of You 690,Coldplay,Pop,2020,4.5
+Shape of You 691,Eminem,Reggae,2010,3.3
+Mamma Mia 692,Eminem,R&B,2020,4.9
+Someone Like You 693,Drake,Hip-Hop,2020,4.1
+Perfect 694,Coldplay,Rock,2010,4.9
+Mamma Mia 695,Coldplay,Reggae,1990,5.5
+Bohemian Rhapsody 696,Taylor Swift,Country,1970,3.7
+Halo 697,Eminem,Rock,1990,3.1
+Halo 698,Beyoncé,Country,2010,5.2
+Bohemian Rhapsody 699,Adele,Country,1980,4.3
+Rude 700,MAGIC,Reggae,2020,4.1
+Halo 701,Adele,Indie,2000,4.4
+Someone Like You 702,Beyoncé,Country,1970,3.3
+Bohemian Rhapsody 703,Ed Sheeran,Jazz,2000,3.0
+Blinding Lights 704,The Beatles,Electronic,2020,4.8
+Halo 705,Beyoncé,Indie,1970,4.3
+Perfect 706,Drake,Rock,1970,4.3
+Rude 707,Coldplay,R&B,1970,2.5
+Blinding Lights 708,Taylor Swift,Hip-Hop,2020,4.3
+Bohemian Rhapsody 709,Beyoncé,Jazz,2010,4.7
+Rude 710,Ed Sheeran,Hip-Hop,2000,3.7
+Perfect 711,ABBA,R&B,1980,4.3
+Perfect 712,The Beatles,R&B,1980,5.5
+Mamma Mia 713,Drake,R&B,1970,4.1
+Rude 714,Beyoncé,Electronic,1990,4.1
+Perfect 715,Coldplay,Indie,2010,3.4
+Mamma Mia 716,ABBA,Indie,2000,2.5
+Perfect 717,ABBA,Hip-Hop,2020,5.5
+Blinding Lights 718,Ed Sheeran,R&B,2000,4.7
+Hotel California 719,Eminem,Rock,2000,4.9
+Hotel California 720,Eminem,Rock,1970,2.7
+Viva La Vida 721,Coldplay,Pop,1990,4.7
+Shape of You 722,Eminem,Reggae,1970,3.3
+Viva La Vida 723,Beyoncé,Classical,1970,3.1
+Mamma Mia 724,Coldplay,Reggae,1990,5.2
+Shape of You 725,Taylor Swift,Reggae,2000,3.4
+Someone Like You 726,Adele,Jazz,2010,4.4
+Hotel California 727,Drake,Hip-Hop,1990,3.1
+Someone Like You 728,The Beatles,Rock,2010,4.7
+Perfect 729,Drake,Classical,2010,5.2
+Shape of You 730,Ed Sheeran,Rock,1970,2.6
+Blinding Lights 731,MAGIC,Jazz,2020,5.4
+Perfect 732,MAGIC,Country,2020,4.2
+Blinding Lights 733,Drake,Reggae,1980,3.5
+Bohemian Rhapsody 734,Taylor Swift,Classical,1970,4.1
+Perfect 735,Eminem,Rock,1990,4.8
+Someone Like You 736,Ed Sheeran,Rock,1990,4.8
+Someone Like You 737,Beyoncé,Electronic,1980,4.5
+Blinding Lights 738,Beyoncé,R&B,1980,5.1
+Hotel California 739,The Beatles,Jazz,1970,3.3
+Hotel California 740,Ed Sheeran,Indie,2010,3.1
+Halo 741,Coldplay,Hip-Hop,1980,3.3
+Shape of You 742,Coldplay,R&B,1990,5.1
+Shape of You 743,MAGIC,Jazz,1990,3.6
+Shape of You 744,Taylor Swift,Hip-Hop,2020,2.5
+Blinding Lights 745,The Beatles,Rock,1980,4.0
+Viva La Vida 746,Taylor Swift,Pop,2020,3.2
+Blinding Lights 747,MAGIC,Hip-Hop,1980,4.8
+Hotel California 748,Ed Sheeran,R&B,1990,3.6
+Blinding Lights 749,Ed Sheeran,Hip-Hop,2020,4.3
+Blinding Lights 750,ABBA,R&B,1970,4.9
+Blinding Lights 751,Taylor Swift,Jazz,1990,4.2
+Someone Like You 752,MAGIC,Pop,2000,3.5
+Perfect 753,Ed Sheeran,Jazz,2020,2.9
+Someone Like You 754,ABBA,Indie,2000,4.9
+Viva La Vida 755,Drake,Hip-Hop,2010,3.1
+Bohemian Rhapsody 756,Taylor Swift,Jazz,2000,4.4
+Perfect 757,Adele,R&B,1970,3.2
+Viva La Vida 758,Coldplay,Classical,1970,3.5
+Rude 759,MAGIC,R&B,1990,4.0
+Viva La Vida 760,Coldplay,Electronic,2010,2.6
+Perfect 761,Eminem,Jazz,2020,4.6
+Perfect 762,MAGIC,Rock,1990,4.4
+Halo 763,MAGIC,Country,2020,3.0
+Someone Like You 764,Adele,Reggae,2020,5.5
+Mamma Mia 765,Beyoncé,Country,2020,2.6
+Mamma Mia 766,Adele,Country,2020,2.8
+Viva La Vida 767,Taylor Swift,Pop,2020,3.2
+Hotel California 768,Ed Sheeran,Classical,2000,5.1
+Hotel California 769,The Beatles,R&B,2020,3.2
+Someone Like You 770,Adele,Electronic,2020,3.0
+Rude 771,MAGIC,Jazz,2020,3.7
+Perfect 772,The Beatles,Rock,1970,5.1
+Shape of You 773,The Beatles,Pop,2020,2.6
+Viva La Vida 774,The Beatles,Hip-Hop,1990,3.5
+Bohemian Rhapsody 775,MAGIC,Hip-Hop,1990,4.3
+Halo 776,The Beatles,Pop,2010,4.1
+Halo 777,Ed Sheeran,Electronic,1990,2.6
+Mamma Mia 778,Beyoncé,Country,1990,5.4
+Someone Like You 779,Beyoncé,Pop,2020,3.1
+Someone Like You 780,Coldplay,R&B,2000,5.3
+Halo 781,Ed Sheeran,Jazz,1980,3.4
+Mamma Mia 782,Coldplay,Indie,2000,2.9
+Hotel California 783,ABBA,Hip-Hop,2020,3.2
+Viva La Vida 784,Taylor Swift,Indie,2000,3.5
+Halo 785,The Beatles,Country,1970,4.8
+Bohemian Rhapsody 786,Beyoncé,R&B,1990,3.7
+Someone Like You 787,Adele,Reggae,1990,4.3
+Rude 788,The Beatles,Hip-Hop,1990,3.6
+Hotel California 789,Drake,Hip-Hop,1970,5.3
+Mamma Mia 790,Drake,Classical,1970,4.5
+Someone Like You 791,Beyoncé,Jazz,1970,2.7
+Blinding Lights 792,Beyoncé,Country,2010,4.9
+Halo 793,MAGIC,Electronic,1990,4.8
+Rude 794,Taylor Swift,Reggae,2020,2.8
+Perfect 795,The Beatles,Electronic,1980,2.5
+Perfect 796,Ed Sheeran,Indie,2010,5.1
+Rude 797,Ed Sheeran,Pop,2010,4.1
+Viva La Vida 798,Drake,Hip-Hop,2000,3.3
+Rude 799,Taylor Swift,Classical,2010,5.4
+Bohemian Rhapsody 800,Taylor Swift,Reggae,1970,4.1
+Viva La Vida 801,Beyoncé,Indie,1970,2.9
+Halo 802,ABBA,Rock,1990,5.1
+Viva La Vida 803,Adele,Indie,2000,3.3
+Perfect 804,Beyoncé,Pop,1970,5.1
+Someone Like You 805,Beyoncé,Hip-Hop,2010,5.4
+Mamma Mia 806,Eminem,Hip-Hop,1970,5.4
+Halo 807,MAGIC,Hip-Hop,2000,5.5
+Mamma Mia 808,Coldplay,R&B,1990,2.7
+Hotel California 809,The Beatles,Indie,2010,4.7
+Rude 810,Coldplay,R&B,1990,3.4
+Rude 811,ABBA,R&B,2020,3.3
+Mamma Mia 812,Coldplay,Jazz,2020,4.2
+Viva La Vida 813,The Beatles,Country,2010,3.5
+Bohemian Rhapsody 814,Adele,Electronic,2010,4.0
+Blinding Lights 815,Taylor Swift,Country,2020,2.9
+Shape of You 816,Eminem,Electronic,1970,4.3
+Blinding Lights 817,Adele,Indie,1970,3.4
+Blinding Lights 818,Beyoncé,Country,2020,3.2
+Shape of You 819,ABBA,R&B,2000,4.2
+Halo 820,ABBA,Classical,2000,5.4
+Mamma Mia 821,Ed Sheeran,Classical,2020,3.8
+Mamma Mia 822,Ed Sheeran,Electronic,2010,3.8
+Blinding Lights 823,Taylor Swift,Electronic,1990,5.4
+Perfect 824,Adele,Rock,2020,2.9
+Rude 825,Ed Sheeran,Reggae,2010,3.0
+Hotel California 826,Beyoncé,Country,1990,3.7
+Hotel California 827,ABBA,Classical,1980,5.1
+Hotel California 828,Adele,Rock,1970,2.5
+Viva La Vida 829,Eminem,Reggae,2020,4.5
+Shape of You 830,MAGIC,Electronic,2000,3.6
+Bohemian Rhapsody 831,The Beatles,Country,1990,2.8
+Rude 832,The Beatles,Pop,1980,5.5
+Shape of You 833,Coldplay,Electronic,1980,3.3
+Shape of You 834,Eminem,Country,1990,3.0
+Rude 835,Drake,Rock,1990,2.9
+Perfect 836,Coldplay,Pop,2000,3.6
+Someone Like You 837,Coldplay,Hip-Hop,1970,3.9
+Bohemian Rhapsody 838,Eminem,Electronic,2000,5.3
+Halo 839,MAGIC,Hip-Hop,2010,3.1
+Rude 840,MAGIC,Electronic,2010,3.7
+Viva La Vida 841,Adele,Jazz,2020,3.9
+Someone Like You 842,Eminem,Pop,1980,3.9
+Rude 843,Taylor Swift,Reggae,1970,5.1
+Shape of You 844,Beyoncé,Reggae,2000,4.8
+Perfect 845,Taylor Swift,Rock,2010,5.0
+Rude 846,Taylor Swift,Indie,2020,5.4
+Bohemian Rhapsody 847,Eminem,Jazz,1980,3.9
+Bohemian Rhapsody 848,Beyoncé,Electronic,2000,3.2
+Perfect 849,Eminem,Hip-Hop,2020,4.9
+Bohemian Rhapsody 850,The Beatles,Hip-Hop,2000,3.5
+Halo 851,Drake,R&B,1990,4.9
+Bohemian Rhapsody 852,MAGIC,Pop,2010,3.2
+Shape of You 853,MAGIC,Rock,2010,3.3
+Hotel California 854,ABBA,Reggae,1990,4.5
+Perfect 855,Eminem,Country,2000,2.9
+Someone Like You 856,The Beatles,Pop,1980,3.0
+Hotel California 857,Eminem,Classical,1990,4.7
+Hotel California 858,Taylor Swift,Indie,2020,3.8
+Shape of You 859,ABBA,Indie,2020,5.3
+Halo 860,Ed Sheeran,Rock,1970,4.6
+Someone Like You 861,Drake,Classical,2020,2.7
+Bohemian Rhapsody 862,The Beatles,R&B,2020,3.0
+Halo 863,Eminem,Jazz,2010,5.1
+Rude 864,Eminem,Hip-Hop,1970,4.6
+Bohemian Rhapsody 865,MAGIC,R&B,1990,4.8
+Viva La Vida 866,Beyoncé,Country,1990,5.3
+Blinding Lights 867,MAGIC,Reggae,2000,5.2
+Rude 868,The Beatles,Electronic,1990,4.2
+Blinding Lights 869,Eminem,Electronic,1990,4.4
+Mamma Mia 870,Adele,Country,2020,4.4
+Someone Like You 871,The Beatles,Indie,1990,4.2
+Someone Like You 872,Coldplay,Jazz,2000,2.8
+Bohemian Rhapsody 873,Drake,Rock,2010,4.6
+Perfect 874,The Beatles,Pop,2010,2.8
+Viva La Vida 875,Eminem,R&B,1980,3.8
+Rude 876,ABBA,Country,2010,2.8
+Rude 877,ABBA,Jazz,2010,4.8
+Shape of You 878,Coldplay,Reggae,2010,3.8
+Perfect 879,The Beatles,R&B,2010,3.9
+Someone Like You 880,Eminem,Classical,2000,3.3
+Blinding Lights 881,Eminem,Electronic,2020,3.7
+Halo 882,Beyoncé,Classical,2020,3.6
+Blinding Lights 883,Adele,Pop,2000,5.1
+Viva La Vida 884,The Beatles,Indie,2020,5.0
+Someone Like You 885,MAGIC,Reggae,2000,5.2
+Blinding Lights 886,Beyoncé,Rock,2000,3.9
+Blinding Lights 887,Drake,Classical,2020,4.2
+Blinding Lights 888,ABBA,Jazz,1970,3.0
+Hotel California 889,The Beatles,R&B,1990,3.9
+Halo 890,Taylor Swift,Hip-Hop,1970,4.0
+Someone Like You 891,Taylor Swift,Indie,2010,4.8
+Viva La Vida 892,Drake,Electronic,1990,4.2
+Blinding Lights 893,Adele,Rock,1980,3.7
+Shape of You 894,Adele,Country,1970,2.9
+Blinding Lights 895,Coldplay,Classical,2000,5.2
+Viva La Vida 896,Taylor Swift,Indie,1980,2.8
+Hotel California 897,Adele,Electronic,2010,5.0
+Halo 898,MAGIC,Hip-Hop,1970,2.7
+Mamma Mia 899,Drake,Hip-Hop,1980,3.4
+Viva La Vida 900,The Beatles,Country,2010,3.3
+Halo 901,The Beatles,Country,1990,5.0
+Halo 902,Coldplay,Pop,2000,4.7
+Halo 903,Drake,Reggae,2000,4.8
+Hotel California 904,ABBA,Pop,1990,4.3
+Rude 905,The Beatles,Jazz,2010,5.4
+Bohemian Rhapsody 906,MAGIC,Pop,1990,3.2
+Perfect 907,Taylor Swift,Jazz,2010,5.4
+Mamma Mia 908,Eminem,Pop,1990,5.1
+Blinding Lights 909,MAGIC,Reggae,2000,5.5
+Halo 910,Beyoncé,Indie,2000,5.3
+Someone Like You 911,ABBA,Electronic,1970,2.7
+Shape of You 912,Beyoncé,Rock,2000,4.7
+Mamma Mia 913,Adele,Jazz,1980,5.0
+Halo 914,Beyoncé,Rock,2000,3.7
+Perfect 915,ABBA,Hip-Hop,1980,5.2
+Viva La Vida 916,Ed Sheeran,Classical,1990,2.8
+Halo 917,The Beatles,Classical,2000,3.1
+Hotel California 918,MAGIC,Country,2020,4.5
+Viva La Vida 919,Taylor Swift,Electronic,2000,5.0
+Bohemian Rhapsody 920,The Beatles,R&B,2000,5.4
+Viva La Vida 921,Beyoncé,Hip-Hop,1990,2.5
+Halo 922,Ed Sheeran,Reggae,2010,5.3
+Viva La Vida 923,Drake,R&B,1980,3.8
+Rude 924,Taylor Swift,Classical,2020,2.8
+Perfect 925,The Beatles,Electronic,2000,3.3
+Hotel California 926,Drake,Country,2000,4.2
+Halo 927,Drake,Reggae,1970,5.1
+Someone Like You 928,ABBA,Electronic,2000,4.6
+Rude 929,Ed Sheeran,Pop,2020,5.1
+Rude 930,Coldplay,Pop,2020,5.4
+Bohemian Rhapsody 931,Taylor Swift,Jazz,2020,3.1
+Bohemian Rhapsody 932,Eminem,Country,2020,5.2
+Rude 933,Drake,Reggae,2020,4.3
+Rude 934,Beyoncé,Reggae,2010,5.2
+Viva La Vida 935,Taylor Swift,Classical,2010,3.8
+Halo 936,The Beatles,R&B,1990,4.3
+Viva La Vida 937,MAGIC,Indie,2020,3.6
+Someone Like You 938,Adele,Classical,2020,5.4
+Someone Like You 939,Drake,R&B,1990,4.8
+Blinding Lights 940,The Beatles,Jazz,2010,3.9
+Hotel California 941,Ed Sheeran,R&B,1980,4.2
+Perfect 942,Drake,Electronic,2020,2.7
+Halo 943,MAGIC,Electronic,1990,3.9
+Rude 944,Drake,R&B,1970,4.2
+Mamma Mia 945,Drake,Hip-Hop,1990,5.1
+Blinding Lights 946,Coldplay,R&B,2010,3.4
+Bohemian Rhapsody 947,Eminem,R&B,1980,5.0
+Someone Like You 948,Coldplay,Indie,1990,2.6
+Halo 949,Eminem,Electronic,1990,5.0
+Rude 950,The Beatles,R&B,1970,3.1
+Halo 951,Eminem,Indie,2010,3.5
+Someone Like You 952,Beyoncé,Jazz,1990,4.3
+Blinding Lights 953,Ed Sheeran,Pop,2000,3.8
+Rude 954,Drake,Electronic,2010,2.6
+Rude 955,Drake,Jazz,1990,3.5
+Hotel California 956,Coldplay,Hip-Hop,1990,5.0
+Perfect 957,Drake,Classical,1980,4.6
+Perfect 958,Coldplay,Electronic,1970,3.0
+Bohemian Rhapsody 959,Coldplay,Electronic,1980,5.2
+Rude 960,The Beatles,Indie,1980,3.1
+Viva La Vida 961,Drake,Reggae,2020,5.5
+Shape of You 962,The Beatles,R&B,1990,2.7
+Shape of You 963,Coldplay,Pop,2010,4.3
+Blinding Lights 964,Beyoncé,R&B,2020,3.1
+Shape of You 965,MAGIC,Country,1980,4.1
+Viva La Vida 966,Drake,Reggae,2020,3.4
+Halo 967,Drake,Indie,2020,3.2
+Rude 968,ABBA,R&B,1980,3.0
+Mamma Mia 969,Adele,Classical,2000,3.6
+Viva La Vida 970,The Beatles,Jazz,2020,5.5
+Rude 971,Adele,Classical,2010,5.4
+Hotel California 972,MAGIC,Rock,1970,3.4
+Mamma Mia 973,Eminem,Hip-Hop,2010,4.7
+Rude 974,MAGIC,Rock,1970,3.8
+Shape of You 975,Drake,Country,1990,4.1
+Rude 976,MAGIC,Country,1970,3.6
+Viva La Vida 977,Drake,Rock,1970,2.6
+Halo 978,Drake,Reggae,1980,3.3
+Mamma Mia 979,Taylor Swift,Electronic,2020,2.9
+Bohemian Rhapsody 980,Ed Sheeran,Classical,1970,2.8
+Rude 981,Ed Sheeran,Reggae,2020,5.5
+Bohemian Rhapsody 982,Adele,Country,1980,3.4
+Someone Like You 983,Adele,Electronic,2000,5.0
+Blinding Lights 984,Taylor Swift,Electronic,2000,4.1
+Shape of You 985,Eminem,Reggae,1990,3.7
+Viva La Vida 986,Ed Sheeran,Rock,2000,2.5
+Blinding Lights 987,Beyoncé,Pop,2000,3.8
+Perfect 988,Beyoncé,Electronic,1970,4.6
+Rude 989,Beyoncé,Hip-Hop,2000,4.2
+Perfect 990,Adele,Indie,1970,4.9
+Someone Like You 991,Beyoncé,Pop,1970,4.3
+Bohemian Rhapsody 992,Adele,Classical,2020,4.9
+Viva La Vida 993,Ed Sheeran,Indie,1980,2.5
+Bohemian Rhapsody 994,MAGIC,R&B,1980,3.3
+Viva La Vida 995,Drake,R&B,1990,4.4
+Hotel California 996,The Beatles,Reggae,2000,2.8
+Someone Like You 997,ABBA,Hip-Hop,1990,3.0
+Perfect 998,Ed Sheeran,Hip-Hop,1980,3.2
+Shape of You 999,The Beatles,Classical,1980,3.2
+Hotel California 1000,ABBA,Jazz,1980,2.6
